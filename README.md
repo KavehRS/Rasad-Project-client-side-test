@@ -4,8 +4,7 @@
 
  PROGRAM:   Rasad Test Project - client side
  
- AUTHOR:    Kaveh Rezaei Shiraz
- 
+ MAIN AUTHOR:    Kaveh Rezaei Shiraz
  LOGON ID (git.irib.ir):    kavehrs
  
  DUE DATE:  09/28/2020
