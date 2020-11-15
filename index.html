@@ -1,3 +1,11 @@
+<!-- ****************************************************************
+ PROGRAM:   Rasad Test Project - client side
+ AUTHOR:    Kaveh Rezaei Shiraz
+ LOGON ID (git.irib.ir):    kavehrs
+ DUE DATE:  09/28/2020
+ Version : 0.0.0
+ ****************************************************************/-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,8 +25,8 @@
 
 <div id='player'>
     <video controls class="video" width="320" height="240" id='video-element'>
-        <source src='https://www.w3schools.com/html/mov_bbb.mp4' type='video/mp4'>
-        <source src='https://www.w3schools.com/html/mov_bbb.ogg' type='video/ogg'>
+        <source src='/MEDIA/clipo_cinama_8653.mp4' type='video/mp4'>
+
     </video>
 </div>
 
@@ -33,6 +41,9 @@
         if (player) {
             // send play action
             player.onplay = function () {
+                //***************
+            //   sessionFactory.init();
+                //***************
                 activityFactory.log(channel_id(), content_id, content_type_id(), service_id(), ACTIVITY.Play, player.currentTime);
             }
             // send pause action
