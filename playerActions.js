@@ -1,7 +1,7 @@
 /****************************************************************
  PROGRAM:   playerActions Lib
  AUTHOR:    Kaveh Rezaei Shiraz
- LOGON ID (git.irib.ir):    kavehrs
+ LOGON ID:    kavehrs
  DUE DATE:  09/28/2020
  Version : 0.0.0
  FUNCTION:   creat random data for test IRIB Analytic Server
