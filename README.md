@@ -4,9 +4,7 @@
 
  PROGRAM:   Rasad Test Project - client side
  
- AUTHOR(s):    Kaveh Rezaei Shiraz,  Ali Emami,  Maryam Mostafa Nazai Zanjani. \\\
-    LOGON ID(s) (git.irib.ir):    kavehrs, a.emami, Nazari.
-
+ AUTHOR(s):    Kaveh Rezaei Shiraz,  Maryam Mostafa Nazai Zanjani. 
 
  DUE DATE:  09/28/2020
  
