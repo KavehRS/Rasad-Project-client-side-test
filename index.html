@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <Title>DataMining Dep. (Test Tv)</Title>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="didban.js"></script>
+    <script type="text/javascript" src='playerActions.js'></script>
+</head>
+<body>
+
+<!-- Login & logout button -->
+<input type="button" value="login" id="login-button">
+<input type="button" value="logout" id="logout-button">
+
+
+<!-- Html5 Player -->
+
+<div id='player'>
+    <video controls class="video" width="320" height="240" id='video-element'>
+        <source src='/MEDIA/clipo_cinama_8653.mp4' type='video/mp4'>
+
+    </video>
+</div>
+
+</body>
+
+<!-- Rasad analytics -->
+<script type="text/javascript">
+    var playerBindLimit = 100;
+//Function to delay code execution until page loading 
+    function bindPlayer(counter) {
+        var player = document.getElementById("video-element");
+        if (player) {
+            // send play action
+            player.onplay = function () {
+                activityFactory.log(channel_id(), content_id, content_type_id(), service_id(), ACTIVITY.Play, player.currentTime);
+            }
+            // send pause action
+            player.onpause = function () {
+                activityFactory.log(channel_id(), content_id, content_type_id(), service_id(), ACTIVITY.Pause, player.currentTime);
+            }
+            
+        } else {
+            if (counter > playerBindLimit) return;
+            setTimeout(bindPlayer, 1000, ++counter);
+
+        }
+
+    }
+
+    bindPlayer(0);
+// send username 
+    document.getElementById("login-button").onclick = function () {
+        sessionFactory.init();
+    }
+    // send logout
+    document.getElementById("logout-button").onclick = function () {
+        sessionFactory.expire();
+    }
+</script>
+</html>
