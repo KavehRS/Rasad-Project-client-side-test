@@ -22,5 +22,7 @@
 
 4- Play and puase video and See the Activitie log in the Network tab
 
+5- Due to the lack of user information, the login & logout functions must be sent by the server
+
 
 
