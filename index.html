@@ -1,9 +1,24 @@
+<<<<<<< HEAD
+=======
+<!-- ****************************************************************
+ PROGRAM:   Rasad Test Project - client side
+ AUTHOR:    Kaveh Rezaei Shiraz
+ LOGON ID:    kavehrs
+ DUE DATE:  09/28/2020
+ Version : 0.0.0
+ ****************************************************************/-->
+
+>>>>>>> 53b5cfcf4e0e89ec550d1545bf8e30fbd02e1466
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <Title>DataMining Dep. (Test Tv)</Title>
     <meta charset="UTF-8">
+<<<<<<< HEAD
     <script type="text/javascript" src="didban.js"></script>
+=======
+    <script type="text/javascript" src="Didban.js"></script>
+>>>>>>> 53b5cfcf4e0e89ec550d1545bf8e30fbd02e1466
     <script type="text/javascript" src='playerActions.js'></script>
 </head>
 <body>
@@ -33,6 +48,12 @@
         if (player) {
             // send play action
             player.onplay = function () {
+<<<<<<< HEAD
+=======
+                //***************
+            //   sessionFactory.init();
+                //***************
+>>>>>>> 53b5cfcf4e0e89ec550d1545bf8e30fbd02e1466
                 activityFactory.log(channel_id(), content_id, content_type_id(), service_id(), ACTIVITY.Play, player.currentTime);
             }
             // send pause action
@@ -51,7 +72,11 @@
     bindPlayer(0);
 // send username 
     document.getElementById("login-button").onclick = function () {
+<<<<<<< HEAD
         sessionFactory.init();
+=======
+        sessionFactory.init("karbar");
+>>>>>>> 53b5cfcf4e0e89ec550d1545bf8e30fbd02e1466
     }
     // send logout
     document.getElementById("logout-button").onclick = function () {

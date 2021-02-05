@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+/****************************************************************
+ PROGRAM:   playerActions Lib
+ AUTHOR:    Kaveh Rezaei Shiraz
+ LOGON ID:    kavehrs
+ DUE DATE:  09/28/2020
+ Version : 0.0.0
+ FUNCTION:   creat random data for test IRIB Analytic Server
+ OUTPUT:     karbar, channel_id, content_id, content_type_id, service_id
+ ****************************************************************/
+
+
+>>>>>>> 53b5cfcf4e0e89ec550d1545bf8e30fbd02e1466
     // user_id
     function karbar() {
         users = ['user01', 'user02', 'user03', 'user04', 'user05', 'user06', 'user07', 'user08', 'user09', 'user00'];
