@@ -11,3 +11,14 @@
  Version : 1.0.1
  
  ****************************************************************
+
+1- click on index.html file
+
+2- click on F12
+
+3- select network Tab
+
+4- Play and puase video and See the Activitie log in the Network tab
+
+
+
