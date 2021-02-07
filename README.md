@@ -4,7 +4,7 @@
 
  PROGRAM:   Rasad Test Project - client side
  
- AUTHOR(s):    Kaveh Rezaei Shiraz,  Maryam Mostafa Nazai Zanjani. 
+ AUTHOR(s):    Kaveh Rezaei Shiraz,  Maryam Mostafa Nazari Zanjani. 
 
  DUE DATE:  09/28/2020
  
